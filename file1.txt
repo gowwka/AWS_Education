@@ -1,4 +1,10 @@
-My first project for GIT
-Modified file version1.0
-Modified file1 version1.1
-fjewkewjkfkew
+#!/bin/bash                                                                   
+echo "Please enter a number greater than 100"                                 
+read num                                                                      
+while [ $num -le 100 ]                                                        
+do                                                                            
+    echo "$num is NOT greater than 100."                                      
+    echo "Please enter a number greater than 100."                            
+    read num                                                                  
+done                                                                          
+echo "Finally, $num is greater than 100" 
